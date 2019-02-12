@@ -16,7 +16,6 @@ public final class ImageProcessing {
 
 		int red = (rgb >> 16) & 0b11111111;
 
-		// TODO implement me !
 		return red;
 	}
 
@@ -34,7 +33,6 @@ public final class ImageProcessing {
 
 		int green = (rgb >> 8) & 0b00001111;
 
-		// TODO implement me !
 		return green;
 	}
 
@@ -70,7 +68,6 @@ public final class ImageProcessing {
 	public static double getGray(int rgb) {
 
 		double gray = (getGreen(rgb) + getBlue(rgb) + getRed(rgb)) / 3;
-		// TODO implement me !
 		return gray;
 	}
 
@@ -131,7 +128,6 @@ public final class ImageProcessing {
 			}
 	}
 
-		// TODO implement me !
 		return imagegrey;
 	}
 
@@ -155,7 +151,6 @@ public final class ImageProcessing {
 
 				imageRGB[i][j] = getRGB(gray[i][j]);
 			}
-			// TODO implement me !
 
 		}
 		return imageRGB;
@@ -184,7 +179,6 @@ public final class ImageProcessing {
 			}
 		}
 
-		// TODO implement me !
 		return RGB;
 	}
 }

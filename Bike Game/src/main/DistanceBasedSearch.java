@@ -19,7 +19,6 @@ public class DistanceBasedSearch {
 		double Green = Math.abs(ImageProcessing.getGreen(patternPixel) - ImageProcessing.getGreen(imagePixel));
 		double pixelAbsoluteError = (Red + Green + Blue) / 3;
 
-		// TODO implement me !
 		return pixelAbsoluteError;
 
 	}
@@ -66,7 +65,6 @@ public class DistanceBasedSearch {
 
 		}
 
-		// TODO implement me !
 		return Adition / (h * l);
 	}
 

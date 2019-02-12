@@ -65,7 +65,6 @@ public final class Main {
 		}
 	}
 
-	// TODO: complete
 
 	/*
 	 * Tests for Class DistanceBasedSearch
@@ -81,7 +80,6 @@ public final class Main {
 		Helper.show(food, "Found!");
 	}
 
-	// TODO: complete
 
 	/*
 	 * Tests for Class SimilarityBasedSearch
@@ -124,5 +122,4 @@ public final class Main {
 		Helper.show(beach, "Found again!");
 	}
 
-	// TODO: complete
 }
